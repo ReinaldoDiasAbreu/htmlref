@@ -1,0 +1,40 @@
+
+.content .lp-about {
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+
+.content .lp-about #texto-sobre {
+    align-self: center;
+    padding: 30px;
+    width: 50vw;
+}
+
+.content .lp-about #texto-sobre a{
+    margin-top: 1rem;
+    text-decoration: none;
+    color: black;
+    background-color: #ffffff;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 3px;
+    float: right;
+    margin-top: 1rem;
+    margin-bottom: 0px;
+}
+
+.content .lp-about #texto-sobre a:hover{
+    background-color: rgb(204, 194, 194);
+}
+
+.content .lp-about #texto-sobre p{
+    text-align: justify;
+    font: Arial;
+    font-size: 15pt;
+    font-weight: 500;
+}
+
+.content .lp-about #img-sobre {
+    align-self: center;
+}

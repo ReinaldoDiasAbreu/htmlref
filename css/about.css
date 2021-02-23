@@ -1,0 +1,48 @@
+.content #contributor {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid black;
+}
+
+.content #contributor div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 2rem;
+}
+
+.content #contributor div img {
+    border: 3px solid #666666;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+
+.content #contributor div p {
+    text-align: center;
+    font-family: Arial;
+    font-size: 15pt;
+    font-weight: 500;
+}
+
+.content #contributor div a {
+    text-align: center;
+    text-decoration: none;
+    color: #666666;
+    font: Arial;
+    font-size: 11pt;
+}
+
+.content #contributor div a:hover{
+    color: #000000;
+}
+
+.content #contributor p#bio {
+    text-align: justify;
+    font-family: Helvetica;
+    font-size: 13pt;
+    width: 70%;
+    margin-top: 5%;
+}

@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Tag: input</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <h1>Referências de Elementos HTML</h1>
+      <div class="nav-row">
+        <div class="nav">
+          <span> <a href="../index.html"> Home </a></span>
+          <span> <a href="../sobre.html"> Sobre </a></span>
+          <span> <a href="../referencias.html"> Tags </a></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="content">
+      <h2>Tag HTML &lt;input></h2>
+      <div class="example">
+        <h3>Exemplo</h3>
+        <p>
+          Um formulário HTML com três inputs; dois campos de texto e um botão de
+          envio:
+        </p>
+        <div class="example-code">
+          &lt;form action="acao.php"><br />
+          &nbsp;&nbsp;&lt;label for="nome">Nome:&lt;/label><br />
+          &nbsp;&nbsp;&lt;input type="text" id="nome"
+          name="nome">&lt;br/>&lt;br/><br />
+          &nbsp;&nbsp;&lt;label for="sobrenome">Sobrenome:&lt;/label><br />
+          &nbsp;&nbsp;&lt;input type="text" id="sobrenome"
+          name="sobrenome">&lt;br/>&lt;br/><br />
+          &nbsp;&nbsp;&lt;input type="submit" value="Enviar"><br />
+          &lt;/form>
+        </div>
+      </div>
+      <h2>Definição e uso</h2>
+      <p>
+        A tag <span class="tag-span">&lt;input></span> especifica um campo de
+        entrada onde o usuário pode inserir dados.
+      </p>
+      <p>
+        O elemento <span class="tag-span">&lt;input></span> é o mais importante
+        para formulários.
+      </p>
+      <p>
+        O elemento <span class="tag-span">&lt;input></span> pode ser exibido de
+        várias formas, dependendo do valor do atributo type.
+      </p>
+      <p>Os valores possíveis para o atributo type são os seguintes:</p>
+      <ul>
+        <li>
+          <span class="tag-span">&lt;input type=&quot;button&quot;&gt;</span>
+        </li>
+        <li>
+          <span class="tag-span">&lt;input type=&quot;checkbox&quot;&gt;</span>
+        </li>
+        <li>
+          <span class="tag-span">&lt;input type=&quot;color&quot;&gt;</span>
+        </li>
+        <li>
+          <span class="tag-span">&lt;input type=&quot;date&quot;&gt;</span>
+        </li>
+        <li>
+          <span class="tag-span"
+            >&lt;input type=&quot;datetime-local&quot;&gt;</span
+          >
+        </li>
+        <li>
+          <span class="tag-span">&lt;input type=&quot;email&quot;&gt;</span>
+        </li>
+        <li>
+          <span class="tag-span">&lt;input type=&quot;file&quot;&gt;</span>
+        </li>
+        <li>
+          <span class="tag-span">&lt;input type=&quot;hidden&quot;&gt;</span>
+        </li>
+        <li>
+          <span class="tag-span">&lt;input type=&quot;image&quot;&gt;</span>
+        </li>
+        <li>
+          <span class="tag-span">&lt;input type=&quot;month&quot;&gt;</span>
+        </li>
+        <li>
+          <span class="tag-span">&lt;input type=&quot;number&quot;&gt;</span>
+        </li>
+        <li>
+          <span class="tag-span">&lt;input type=&quot;password&quot;&gt;</span>
+        </li>
+        <li>
+          <span class="tag-span">&lt;input type=&quot;radio&quot;&gt;</span>
+        </li>
+        <li>
+          <span class="tag-span">&lt;input type=&quot;range&quot;&gt;</span>
+        </li>
+        <li>
+          <span class="tag-span">&lt;input type=&quot;reset&quot;&gt;</span>
+        </li>
+        <li>
+          <span class="tag-span">&lt;input type=&quot;search&quot;&gt;</span>
+        </li>
+        <li>
+          <span class="tag-span">&lt;input type=&quot;submit&quot;&gt;</span>
+        </li>
+        <li>
+          <span class="tag-span">&lt;input type=&quot;tel&quot;&gt;</span>
+        </li>
+        <li>
+          <span class="tag-span">
+            &lt;input type=&quot;text&quot;&gt; (valor padrão)
+          </span>
+        </li>
+        <li>
+          <span class="tag-span">&lt;input type=&quot;time&quot;&gt;</span>
+        </li>
+        <li>
+          <span class="tag-span">&lt;input type=&quot;url&quot;&gt;</span>
+        </li>
+        <li>
+          <span class="tag-span">&lt;input type=&quot;week&quot;&gt;</span>
+        </li>
+      </ul>
+      <h2>Atributos</h2>
+
+      <table>
+        <tr>
+          <th>Atributo</th>
+          <th>Valor</th>
+          <th style="width: 40%">Descrição</th>
+        </tr>
+        <tr>
+          <td>accept</td>
+          <td>
+            <em>file_extension</em><br />
+            audio/*<br />
+            video/*<br />
+            image/*<br />
+            <i>media_type</i>
+          </td>
+          <td>
+            Especifica um filtro para os tipos de arquivo que o usuário poderá
+            selecionar na caixa de diálogo (quando type="file")
+          </td>
+        </tr>
+        <tr>
+          <td>alt</td>
+          <td><i>text</i></td>
+          <td>
+            Especifica um texto alternativo para imagens (quando type="file")
+          </td>
+        </tr>
+        <tr>
+          <td>autocomplete</td>
+          <td>
+            on<br />
+            off
+          </td>
+          <td>Especifica se o campo de entrada deve autocompletar</td>
+        </tr>
+        <tr>
+          <td>autofocus</td>
+          <td>autofocus</td>
+          <td>
+            Especifica se o campo deve ganhar foco logo após a página carregar
+          </td>
+        </tr>
+        <tr>
+          <td>checked</td>
+          <td>checked</td>
+          <td>
+            Especifica se o campo deve estar selecionado quando a página
+            carregar (quando type="checkbox" ou type="radio")
+          </td>
+        </tr>
+        <tr>
+          <td>dirname</td>
+          <td><i>inputname</i>.dir</td>
+          <td>Especifica que a direção do texto será enviada</td>
+        </tr>
+        <tr>
+          <td>disabled</td>
+          <td>disabled</td>
+          <td>Especifica que o &lt;input&gt; deve estar desativado</td>
+        </tr>
+        <tr>
+          <td>form</td>
+          <td><i>form_id</i></td>
+          <td>
+            Especifica a id do formulário ao qual pertence o &lt;input&gt;
+          </td>
+        </tr>
+        <tr>
+          <td>formaction</td>
+          <td><i>URL</i></td>
+          <td>
+            Especifica a URL do arquivo a processar os dados do &lt;input&gt;
+            quando o formulário for enviado (quando type=&quot;submit&quot; ou
+            type=&quot;image&quot;)
+          </td>
+        </tr>
+        <tr>
+          <td>formenctype</td>
+          <td>
+            application/x-www-form-urlencoded<br />
+            multipart/form-data<br />
+            text/plain
+          </td>
+          <td>
+            Especifica comos os dados do formulário serão codificados para envio
+            (quando type=&quot;submit&quot; ou type=&quot;image&quot;)
+          </td>
+        </tr>
+        <tr>
+          <td>formmethod</td>
+          <td>get<br />post</td>
+          <td>
+            Define o método HTTP para enviar os dados (quando
+            type=&quot;submit&quot; ou type=&quot;image&quot;)
+          </td>
+        </tr>
+        <tr>
+          <td>formnovalidate</td>
+          <td>formnovalidate</td>
+          <td>Define que o valor do &lt;input&gt; não deve ser validado</td>
+        </tr>
+        <tr>
+          <td>formtarget</td>
+          <td>
+            _blank<br />
+            _self<br />
+            _parent<br />
+            _top<br />
+            <em>framename</em>
+          </td>
+          <td>
+            Especifica onde mostrar a resposta ao enviar os dados do formulário
+            (quando type=&quot;submit&quot; ou type=&quot;image&quot;)
+          </td>
+        </tr>
+        <tr>
+          <td>height</td>
+          <td><i>pixels</i></td>
+          <td>
+            Especifica a altura do &lt;input&gt; (quando type=&quot;image&quot;)
+          </td>
+        </tr>
+        <tr>
+          <td>list</td>
+          <td><i>datalist_id</i></td>
+          <td>
+            Aponta para um elemento &lt;datalist&gt; que contém opções
+            pré-definidas para o &lt;input&gt;
+          </td>
+        </tr>
+        <tr>
+          <td>max</td>
+          <td>
+            <i
+              >number<br />
+              date</i
+            >
+          </td>
+          <td>Especifica o valor máximo para o &lt;input&gt;</td>
+        </tr>
+        <tr>
+          <td>maxlength</td>
+          <td><i>number</i></td>
+          <td>
+            Especifica a quantidade máxima de caracteres aceita pelo
+            &lt;input&gt;
+          </td>
+        </tr>
+        <tr>
+          <td>min</td>
+          <td>
+            <i
+              >number<br />
+              date</i
+            >
+          </td>
+          <td>Especifica o valor mínimo para o &lt;input&gt;</td>
+        </tr>
+        <tr>
+          <td>minlength</td>
+          <td><i>number</i></td>
+          <td>
+            Especifica a quantidade mínima de caracteres aceita pelo
+            &lt;input&gt;
+          </td>
+        </tr>
+        <tr>
+          <td>multiple</td>
+          <td>multiple</td>
+          <td>
+            Especifica que o usuário pode inserir mais de um valor no
+            &lt;input&gt;
+          </td>
+        </tr>
+        <tr>
+          <td>name</td>
+          <td><i>text</i></td>
+          <td>Especifica o nome do &lt;input&gt;</td>
+        </tr>
+        <tr>
+          <td>pattern</td>
+          <td><em>regexp</em></td>
+          <td>
+            Especifica uma expressão regular para checar a entrada do
+            &lt;input&gt;
+          </td>
+        </tr>
+        <tr>
+          <td>placeholder</td>
+          <td><i>text</i></td>
+          <td>
+            Especifica um valor para descrever o valor esperado pelo
+            &lt;input&gt;
+          </td>
+        </tr>
+        <tr>
+          <td>readonly</td>
+          <td>readonly</td>
+          <td>Especifica que o campo é apenas para entrada</td>
+        </tr>
+        <tr>
+          <td>required</td>
+          <td>required</td>
+          <td>
+            Especifica que o campo deve ser preenchido antes de se enviar o
+            formulário
+          </td>
+        </tr>
+        <tr>
+          <td>size</td>
+          <td><i>number</i></td>
+          <td>Especifica a quantidade de caracteres do &lt;input&gt;</td>
+        </tr>
+        <tr>
+          <td>src</td>
+          <td><i>URL</i></td>
+          <td>
+            Especifica a URL da imagem a ser utilzada como botão de envio
+            (quando type=&quot;image&quot;)
+          </td>
+        </tr>
+        <tr>
+          <td>step</td>
+          <td>
+            <i>number<br /></i>any
+          </td>
+          <td>
+            Especifica o intervalo entre os números aceitos pelo &lt;input&gt;
+          </td>
+        </tr>
+        <tr>
+          <td>type</td>
+          <td>
+            button<br />
+            checkbox<br />
+            color<br />
+            date <br />
+            datetime-local <br />
+            email <br />
+            file<br />
+            hidden<br />
+            image<br />
+            month <br />
+            number <br />
+            password<br />
+            radio<br />
+            range <br />
+            reset<br />
+            search<br />
+            submit<br />
+            tel<br />
+            text<br />
+            time <br />
+            url<br />
+            week
+          </td>
+          <td>Especifica o tipo de &lt;input&gt; a exibir</td>
+        </tr>
+        <tr>
+          <td>value</td>
+          <td><i>text</i></td>
+          <td>Especifica o valor do elemento &lt;input&gt;</td>
+        </tr>
+        <tr>
+          <td>width</td>
+          <td><i>pixels</i></td>
+          <td>
+            Especifica a largura do &lt;input&gt; (quando
+            type=&quot;image&quot;)
+          </td>
+        </tr>
+      </table>
+
+      <h2>Atributos Globais</h2>
+      <p>
+        A tag
+        <span class="tag-span">&lt;input></span> fornece suporte para os
+        atributos globais do HTML.
+      </p>
+
+      <h2>Atributos de Evento</h2>
+      <p>
+        A tag
+        <span class="tag-span">&lt;input></span> fornece suporte para os
+        atributos de evento do HTML.
+      </p>
+    </div>
+
+    <div class="footer">
+      <div class="nav-row">
+        <div class="nav">
+          <span> <a href="../index.html"> Home </a></span>
+          <span> <a href="../sobre.html"> Sobre </a></span>
+          <span> <a href="../referencias.html"> Tags </a></span>
+        </div>
+      </div>
+
+      <span class="footer-disclaimer">Copyright &copy; 2021</span>
+    </div>
+  </body>
+</html>

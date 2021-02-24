@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Tag: canvas</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <h1>Referências de Elementos HTML</h1>
+      <div class="nav-row">
+        <div class="nav">
+          <span> <a href="../index.html"> Home </a></span>
+          <span> <a href="../sobre.html"> Sobre </a></span>
+          <span> <a href="../referencias.html"> Tags </a></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="content">
+      <h2>Tag HTML &lt;canvas></h2>
+      <div class="example">
+        <h3>Exemplo</h3>
+        <p>Desenhe um retângulo vermelho rapidamente e mostre-o dentro do elemento &lt;canvas>:</p>
+        <div class="example-code">
+          &lt;canvas id="myCanvas"> <br />
+            &nbsp; &nbsp; Seu navegador não suporta a tag canvas.  <br />
+            &lt;/canvas> <br /> <br />
+            
+            &lt;script> <br />
+            &nbsp; &nbsp;var canvas = document.getElementById("myCanvas"); <br />
+            &nbsp; &nbsp;var ctx = canvas.getContext("2d"); <br />
+            &nbsp; &nbsp;ctx.fillStyle = "#FF0000"; <br />
+            &nbsp; &nbsp;ctx.fillRect(0, 0, 80, 80); <br />
+            &lt;/script> <br />
+        </div>
+      </div>
+      <h2>Definição e uso</h2>
+      <p>
+        A tag <span class="tag-span">&lt;canvas></span> é usada para desenhar gráficos, dinamicamente, por meio de scripts (geralmente JavaScript). 
+      </p>
+      <p>
+        A tag <span class="tag-span">&lt;canvas></span> é transparente e é apenas um contêiner para gráficos, você deve usar um script para desenhar os gráficos.
+      </p>
+      <p>
+        Qualquer texto dentro do elemento <span class="tag-span">&lt;canvas></span> será exibido em navegadores com JavaScript desabilitado e em navegadores que não suportam <span class="tag-span">&lt;canvas></span>.
+      </p>
+      
+      <p>
+        <strong>Dicas:</strong> Aprenda mais sobre o elemento<span class="tag-span">&lt;canvas></span> no <a href="https://www.w3schools.com/graphics/canvas_intro.asp"> utorial canvas HTML</a>.
+        Para obter uma referência completa de todas as propriedades e métodos, visite nossa <a href="https://www.w3schools.com/tags/ref_canvas.asp">referência canvas HTML</a> .
+
+      </p>
+
+      <h2>Atributos</h2>
+      <table>
+        <tr>
+          <th>Atributo</th>
+          <th>Valor</th>
+          <th>Descrição</th>
+        </tr>
+        <tr>
+          <td>height</td>
+          <td><i>pixels</i></td>
+          <td>Especifica a altura da tela. O valor padrão é 150 pixels.
+          </td>
+        </tr>
+        <tr>
+          <td>width</td>
+          <td><i>pixels</i></td>
+          <td>Especifica a largura da tela. O valor padrão é 300 pixels.
+          </td>
+        </tr>
+      </table>
+
+      <h2>Atributos Globais</h2>
+      <p>
+        A tag <span class="tag-span">&lt;canvas></span> fornece suporte para os <a href="https://www.w3schools.com/tags/ref_standardattributes.asp"> atributos globais </a> do HTML.
+      </p>
+
+      <h2>Atributos de Evento</h2>
+      <p>
+        A tag <span class="tag-span">&lt;canvas></span> fornece suporte para os <a href="https://www.w3schools.com/tags/ref_eventattributes.asp"> atributos de evento </a> do HTML.
+      </p>
+
+      <h2>Outros exemplos</h2>
+      <div class="example">
+        <h3>Exemplo</h3>
+        <p>Outro exemplo de &lt;canvas>:
+        </p>
+        <div class="example-code">
+            &lt;canvas id="myCanvas"> <br />
+              &nbsp;&nbsp;Seu navegador não suporta a tag canvas. <br />
+            &lt;/canvas> <br /> <br />
+            
+            &lt;script> <br />
+            &nbsp;&nbsp;var c = document.getElementById("myCanvas"); <br />
+            &nbsp;&nbsp;var ctx = c.getContext("2d"); <br />
+            &nbsp;&nbsp;ctx.fillStyle = "red"; <br />
+            &nbsp;&nbsp;ctx.fillRect(20, 20, 75, 50); <br />
+            &nbsp;&nbsp;// Ativar transparência<br />
+            &nbsp;&nbsp;ctx.globalAlpha = 0.2; <br />
+            &nbsp;&nbsp;ctx.fillStyle = "blue"; <br />
+            &nbsp;&nbsp;ctx.fillRect(50, 50, 75, 50); <br />
+            &nbsp;&nbsp;ctx.fillStyle = "green"; <br />
+            &nbsp;&nbsp;ctx.fillRect(80, 80, 75, 50); <br />
+            &lt;/script> <br />
+        </div>
+      </div>
+
+      <h2>CSS padrão</h2>
+      <div class="example">
+        <h3>Exemplo</h3>
+        <p>A maioria dos navegadores exibirá o elemento &lt;canvas> com os seguintes valores padrão:
+        </p>
+        <div class="example-code">
+          canvas { <br />
+            &nbsp;&nbsp;height: 150px; <br />
+            &nbsp;&nbsp;width: 300px; <br />
+          } <br />
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="nav-row">
+        <div class="nav">
+          <span> <a href="../index.html"> Home </a></span>
+          <span> <a href="../sobre.html"> Sobre </a></span>
+          <span> <a href="../referencias.html"> Tags </a></span>
+        </div>
+      </div>
+
+      <span class="footer-disclaimer">Copyright &copy; 2021</span>
+    </div>
+  </body>
+</html>

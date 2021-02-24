@@ -71,7 +71,7 @@ h6 {
   display: table-cell;
 }
 
-.content table tr td a{
+.content table tr td a {
   text-decoration: none;
   color: black;
 }
@@ -119,4 +119,24 @@ th {
   padding: 10px;
   width: 100%;
   font-family: monospace;
+}
+
+.tag-span {
+  font-family: monospace;
+  font-size: large;
+
+  color: rgb(50, 98, 255);
+  background-color: #ddd;
+}
+
+.content ul {
+  margin-left: 20px;
+}
+
+.content p {
+  margin-bottom: 20px;
+}
+
+ul {
+  line-height: 1.5em;
 }

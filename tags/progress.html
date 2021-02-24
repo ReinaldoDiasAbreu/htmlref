@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Tag: progress</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <h1>Referências de Elementos HTML</h1>
+      <div class="nav-row">
+        <div class="nav">
+          <span> <a href="../index.html"> Home </a></span>
+          <span> <a href="../sobre.html"> Sobre </a></span>
+          <span> <a href="../referencias.html"> Tags </a></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="content">
+      <h2>Tag HTML &lt;progress></h2>
+      <div class="example">
+        <h3>Exemplo</h3>
+        <p>Mostra uma barra de progresso:</p>
+        <div class="example-code">
+          &lt;label for="arquivo">Andamento do download:&lt;/label><br />
+          &lt;progress id="arquivo" value="32" max="100">32%&lt;/progress>
+        </div>
+      </div>
+      <h2>Definição e uso</h2>
+      <p>
+        A tag <span class="tag-span">&lt;progress></span> representa o estado de
+        conclusão de uma tarefa.
+      </p>
+      <p>
+        <strong>Dica:</strong> Sempre adicione uma tag <u>&lt;label></u>. É uma
+        boa prática que ajuda na acessibilidade!
+      </p>
+      <p>
+        <strong>Dica:</strong> Use a tag <u>&lt;progress></u> com JavaScript
+        para exibir o progresso de uma tarefa.
+      </p>
+      <p>
+        <strong>Nota:</strong> A tag <u>&lt;progress></u> não é adequada para
+        exibir medições estáticas (como a quantidade de espaço restante em
+        disco, por exemplo). Para representar um medidor, utilize a tag
+        &lt;meter>.
+      </p>
+
+      <h2>Atributos</h2>
+      <table>
+        <tr>
+          <th>Atributo</th>
+          <th>Valor</th>
+          <th>Descrição</th>
+        </tr>
+        <tr>
+          <td>max</td>
+          <td><em>número</em></td>
+          <td>
+            Especifica a quantidade de trabalho total que a tarefa requer. O
+            valor padrão é 1
+          </td>
+        </tr>
+        <tr>
+          <td>value</td>
+          <td><em>número</em></td>
+          <td>Especifica o quanto da tarefa já foi feito</td>
+        </tr>
+      </table>
+
+      <h2>Atributos Globais</h2>
+      <p>
+        A tag <span class="tag-span">&lt;progress></span> fornece suporte para
+        os atributos globais do HTML.
+      </p>
+
+      <h2>Atributos de Evento</h2>
+      <p>
+        A tag
+        <span class="tag-span">&lt;progress></span> fornece suporte para os
+        atributos de evento do HTML.
+      </p>
+      <h2>Outros exemplos</h2>
+      <div class="example">
+        <h3>Exemplo</h3>
+        <p>Utilize CSS para remover a indentação do elemento:</p>
+        <div class="example-code">
+          &lt;html><br />
+          &lt;head><br />
+          &lt;style><br />
+          &nbsp;&nbsp;progress {<br />
+          &nbsp;&nbsp;margin-left: 0;<br />
+          }<br />
+          &lt;/style><br />
+          &lt;/head><br />
+          &lt;body><br /><br />
+          &lt;progress cite="https://www.pensador.com/citacoes/"><br />Creio que
+          o nosso Pai Celeste inventou o homem por estar desapontado com o
+          macaco.<br />
+          &lt;/progress><br /><br />
+          &lt;/body><br />
+          &lt;/html><br />
+        </div>
+      </div>
+      <h2>CSS padrão</h2>
+      <div class="example">
+        <h3>Exemplo</h3>
+        <div class="example-code">
+          progress {<br />
+          &nbsp;&nbsp;display: block;<br />
+          &nbsp;&nbsp;margin-top: 1em;<br />
+          &nbsp;&nbsp;margin-bottom: 1em;<br />
+          &nbsp;&nbsp;margin-left: 40px;<br />
+          &nbsp;&nbsp;margin-right: 40px;<br />
+          }
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="nav-row">
+        <div class="nav">
+          <span> <a href="../index.html"> Home </a></span>
+          <span> <a href="../sobre.html"> Sobre </a></span>
+          <span> <a href="../referencias.html"> Tags </a></span>
+        </div>
+      </div>
+
+      <span class="footer-disclaimer">Copyright &copy; 2021</span>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Tag: select</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <h1>Referências de Elementos HTML</h1>
+      <div class="nav-row">
+        <div class="nav">
+          <span> <a href="../index.html"> Home </a></span>
+          <span> <a href="../sobre.html"> Sobre </a></span>
+          <span> <a href="../referencias.html"> Tags </a></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="content">
+      <h2>Tag HTML &lt;select></h2>
+      <div class="example">
+        <h3>Exemplo</h3>
+        <p>Cria uma lista <em>drop-down</em></p>
+        <div class="example-code">
+          &lt;for="carros">Escolha uma carro:&lt;/label><br /><br />
+          &lt;select name="carros" id="carros"><br />&nbsp;&nbsp;&lt;option
+          value="volvo">Volvo&lt;/option><br />
+          &nbsp;&nbsp;&lt;option value="saab">Saab&lt;/option><br />
+          &nbsp;&nbsp;&lt;option value="mercedes">Mercedes&lt;/option><br />
+          &nbsp;&nbsp;&lt;option value="audi">Audi&lt;/option><br />
+          &lt;/select>
+        </div>
+      </div>
+      <h2>Definição e uso</h2>
+      <p>
+        O elemento <span class="tag-span">&lt;select></span> é utilizado para
+        criar uma lista <em>drop-down</em>.
+      </p>
+      <p>
+        O elemento <span class="tag-span">&lt;select></span> é mais utilizado em
+        formulários, para coletar entradas de usuário.
+      </p>
+      <p>
+        O atributo <span class="tag-span">name</span> é necessário para
+        referenciar os dados do formulário após o envio (se você omitir o
+        atributo <span class="tag-span">name</span>, nenhum dado da lista será
+        enviado).
+      </p>
+      <p>
+        O atributo <span class="tag-span">id</span> é necessário para associar a
+        lista a um rótulo.
+      </p>
+      <p>
+        As tags <u>&lt;option></u> dentro do
+        <span class="tag-span">&lt;select></span> definem as opções disponíveis
+        na lista.
+      </p>
+      <p>
+        <strong>Dica:</strong> Sempre adicione uma tag <u>&lt;label></u>. É uma
+        boa prática que ajuda na acessibilidade!
+      </p>
+
+      <h2>Atributos</h2>
+      <table>
+        <tr>
+          <th>Atributo</th>
+          <th>Valor</th>
+          <th>Descrição</th>
+        </tr>
+        <tr>
+          <td>autofocus</td>
+          <td>autofocus</td>
+          <td>
+            Especifica que a lista deve ganhar foco automaticamente após o
+            carregamento da página
+          </td>
+        </tr>
+        <tr>
+          <td>disabled</td>
+          <td>disabled</td>
+          <td>Especifica que a lista deve estar desativada</td>
+        </tr>
+        <tr>
+          <td>form</td>
+          <td><em>id_formulário</em></td>
+          <td>Define a qual formulário a lista pertence</td>
+        </tr>
+        <tr>
+          <td>multiple</td>
+          <td>multiple</td>
+          <td>
+            Especifica que o usuário pode selecionar várias opções de uma só vez
+          </td>
+        </tr>
+        <tr>
+          <td>name</td>
+          <td><em>nome</em></td>
+          <td>Define um nome para a lista</td>
+        </tr>
+        <tr>
+          <td>required</td>
+          <td>required</td>
+          <td>
+            Especifica que o usuário deve selecionar um valor antes de enviar o
+            formulário
+          </td>
+        </tr>
+        <tr>
+          <td>size</td>
+          <td><em>número</em></td>
+          <td>Define a quantidade de opções visíveis na lista</td>
+        </tr>
+      </table>
+      <h2>Atributos Globais</h2>
+      <p>
+        A tag
+        <span class="tag-span">&lt;select></span> fornece suporte para os
+        atributos globais do HTML.
+      </p>
+
+      <h2>Atributos de Evento</h2>
+      <p>
+        A tag
+        <span class="tag-span">&lt;select></span> fornece suporte para os
+        atributos de evento do HTML.
+      </p>
+      <h2>Outros exemplos</h2>
+      <div class="example">
+        <h3>Exemplo</h3>
+        <p>Use tags &lt;optgroup> em seu &lt;select>:</p>
+        <div class="example-code">
+          &lt;for="carros">Escolha uma carro:&lt;/label><br /><br />
+          &lt;select name="carros" id="carros"><br />
+          &nbsp;&nbsp;&lt;optgroup label="Carros suecos"><br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&lt;option value="volvo">Volvo&lt;/option><br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&lt;option value="saab">Saab&lt;/option><br />
+          &nbsp;&nbsp;&lt;/optgroup><br />
+          &nbsp;&nbsp;&lt;optgroup label="Carros alemães"><br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&lt;option
+          value="mercedes">Mercedes&lt;/option><br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&lt;option value="audi">Audi&lt;/option><br />
+          &nbsp;&nbsp;&lt;/optgroup><br />
+          &lt;/select>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="nav-row">
+        <div class="nav">
+          <span> <a href="../index.html"> Home </a></span>
+          <span> <a href="../sobre.html"> Sobre </a></span>
+          <span> <a href="../referencias.html"> Tags </a></span>
+        </div>
+      </div>
+
+      <span class="footer-disclaimer">Copyright &copy; 2021</span>
+    </div>
+  </body>
+</html>

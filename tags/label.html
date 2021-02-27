@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Tag: label</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+	
+	<div class="header">
+      <h1>Referências de Elementos HTML</h1>
+      <div class="nav-row">
+        <div class="nav">
+          <span> <a href="../index.html"> Home </a></span>
+          <span> <a href="../sobre.html"> Sobre </a></span>
+          <span> <a href="../referencias.html"> Tags </a></span>
+        </div>
+      </div>
+    </div>
+	
+	<div class="content">
+      <h2> Tag HTML &lt;label></h2>
+	  <div class="example">
+		<h3>Exemplo</h3>
+		<p>três botões de opções com rótulos </p>
+		<div class="example-code">
+		  &lt;form action="/action_page.php"><br />
+          &nbsp;&nbsp;&lt;label for="male">Male&lt;/label><br /> 
+          &nbsp;&nbsp;&lt;input type="radio" name="gender" id="male" value="male">&lt;br><br />
+          &nbsp;&nbsp;&lt;label for="female">Female&lt;/label><br />
+          &nbsp;&nbsp;&lt;input type="radio" name="gender" id="female" value="female">&lt;br><br />
+          &nbsp;&nbsp;&lt;label for="other">Other&lt;/label><br />
+          &nbsp;&nbsp;&lt;input type="radio" name="gender" id="other" value="other">&lt;br>&lt;br><br />
+          &nbsp;&nbsp;&lt;input type="submit" value="Submit"><br />
+          &lt;/form>
+		</div>
+	  </div>
+	  <h2>Definição e Uso</h2>
+	  <p>
+		A tag <span class="tag-span">&lt;label></span> define um rótulo para vários elementos:
+	  </p>
+	  <p>
+		- &lt;input type="checkbox"><br />
+        - &lt;input type="color"><br />
+        - &lt;input type="date"><br />
+        - &lt;input type="datetime-local"><br />
+        - &lt;input type="email"><br />
+        - &lt;input type="file"><br />
+        - &lt;input type="month"><br />
+        - &lt;input type="number"><br />
+        - &lt;input type="password"><br />
+        - &lt;input type="radio"><br />
+        - &lt;input type="range"><br />
+        - &lt;input type="search"><br />
+        - &lt;input type="tel"><br />
+        - &lt;input type="text"><br />
+        - &lt;input type="time"><br />
+        - &lt;input type="url"><br />
+        - &lt;input type="week"><br />
+        - &lt;meter><br />
+        - &lt;progress><br />
+        - &lt;select><br />
+        - &lt;textarea><br />
+	  </p>
+      <p>
+          O uso adequado de rótulos com os elementos acima irá beneficiar:<br /><br />
+          Usuários de leitores de tela(lerão o rotulo em voz alta, quando o usuuário estiver focado no elemento)<br />
+          Usuários que têm dificuldade em clicar em regiões muito pequenas(como caixas de seleção), pois quando um usuario clica no texto dentro do elemento &lt;label>, ele altera a entrada(isso aumenta a área de acerto). 
+      </p>
+      <p>
+          <strong>Dica:</strong> O atributo for de <span class="tag-span">&lt;label></span> deve ser igual ao id do elemento relacionado para vinculá-los.
+          Um rótulo também pode ser vinculado a um elemento, colocando o elementodentro do elemento <span class="tag-span">&lt;label></span>
+      </p>
+	  
+	  <h2>Atributos</h2>
+	  <table>
+        <tr>
+          <th>Atributo</th>
+          <th>Valor</th>
+          <th>Descrição</th>
+        </tr>
+        <tr>
+          <td>for</td>
+          <td><i>element_id</i></td>
+          <td>Especifica o id do elemento do form ao qual o rótulo deve ser vinculado</td>
+        </tr>	
+        <tr>
+          <td>form</td>
+          <td>form_id</td>
+          <td>Especifica qual form o rótulo pertence</td>
+        </tr>
+      </table>
+	  <h2>Atributos Globais</h2>
+      <p>
+        A tag <span class="tag-span">&lt;label></span> fornece suporte para
+        os <a href="https://www.w3schools.com/tags/ref_standardattributes.asp"> atributos globais </a> do HTML.
+      </p>
+	  
+	  <h2>Atributos de Evento</h2>
+      <p>
+        A tag
+        <span class="tag-span">&lt;label></span> fornece suporte para os
+        <a href="https://www.w3schools.com/tags/ref_eventattributes.asp"> atributos de evento </a> do HTML.
+      </p>
+	  
+    
+	  <h2>CSS padrão</h2>
+      <div class="example">
+        <h3>Exemplo</h3>
+        <div class="example-code">
+          label {<br />
+          &nbsp;&nbsp;cursor: default;<br />
+          }
+          
+        </div>
+      </div>
+    </div>
+	
+	<div class="footer">
+      <div class="nav-row">
+        <div class="nav">
+          <span> <a href="../index.html"> Home </a></span>
+          <span> <a href="../sobre.html"> Sobre </a></span>
+          <span> <a href="../referencias.html"> Tags </a></span>
+        </div>
+      </div>
+	  
+	   <span class="footer-disclaimer">Copyright &copy; 2021</span>
+    </div>
+  </body>
+</html>

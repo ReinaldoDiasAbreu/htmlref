@@ -27,7 +27,7 @@
 		<h3>Exemplo</h3>
 		<p>Um botão clicável é marcado da seguinte maneira</p>
 		<div class="example-code">
-		  &lt;button type="button> Clique aqui! &lt;button>
+		  &lt;button type="button"> Clique aqui! &lt;/button>
 		</div>
 	  </div>
 	  <h2>Definição e Uso</h2>
@@ -41,85 +41,85 @@
 		Isso não é possivel com um botão criado com o elemento <span class="tag-span">&lt;input></span>
 	  </p>
 	  <p>
-		<strong>Dica:</strong> Sempre especifique o tipo de atributo para um elemento &lt;button>,
+		<strong>Dica:</strong> Sempre especifique o atributo type para um elemento &lt;button>,
 		para dizer ao navegador qual o tipo de botão é.
 	  </p>
 	  
 	  <h2>Atributos</h2>
 	  <table>
-	  <tr>
-		<th>Atributo</th>
-        <th>Valor</th>
-        <th>Descrição</th>
-	  </tr>
-	  <tr>
-	    <th>autofocus</th>
-		<th>autofocus</th>
-		<th>Especifica que aquele botão deve receber o foco automaticamente quando a página carrega</th>
-	  </tr>	
-	  <tr>
-	    <th>disabled</th>
-		<th>disabled</th>
-		<th>Especifica que aquele botão deve ser desativado</th>
-	  </tr>
-	  <tr>
-	    <th>from</th>
-		<th><i>from_id</i></th>
-		<th>Especifica qual formulario o botão pertence</th>
-	  </tr>
-	  <tr>
-	    <th>formaction</th>
-		<th><i>URL</i></th>
-		<th>Especifica onde mandar os dados do formulario quando um formulario foi enviado.Apenas para o tipo="submit"</th>
-	  </tr>
-	  <tr>
-	    <th>formenctype</th>
-		<th>application/x-www-form-urlencoded<br />
-			multipart/form-data<br />
-			text/plain
-		</th>
-		<th>Especifica como os dados do formulario devem ser codificados antes de enviá-los a um servidor.Apenas para o tipo="submit"</th>
-	  </tr>
-	  <tr>
-	    <th>formmethod</th>
-		<th>get</br>
-			post
-		</th>
-		<th>Especifica como mandar os dados do formulario(qual método HTTP usar).Apenas para o tipo="submit"</th>
-	  </tr>
-	  <tr>
-	    <th>formnovalidate</th>
-		<th>formnovalidate</th>
-		<th>Especifica aqueles dados do formularios que não deverção ser validados no envio.Apenas para o tipo="submit"</th>
-	  </tr>
-	  <tr>
-	    <th>formtarget</th>
-		<th>_blank<br />
-			_self<br />
-			_parent<br />
-			_top<br />
-			<i>framename</i>
-		</th>
-		<th>Especifica onde exibir a resposta apos o envio do formulario .Apenas para o tipo="submit"</th>
-	  </tr>
-	  <tr>
-	    <th>name</th>
-		<th><i>name</i></th>
-		<th>Especifica um nome para o botão</th>
-	  </tr>
-	  <tr>
-	    <th>type</th>
-		<th>button<br />
-		reset<br />
-		submit
-		</th>
-		<th>Especifica o tipo do botão</th>
-	  </tr>
-	  <tr>
-	    <th>value</th>
-		<th><i>text</i></th>
-		<th>Especifica um valor inicial para o botão</th>
-	  </tr>
+		<tr>
+			<th>Atributo</th>
+			<th>Valor</th>
+			<th>Descrição</th>
+		</tr>	
+		<tr>
+			<td>autofocus</td>
+			<td>autofocus</td>
+			<td>Especifica que aquele botão deve receber o foco automaticamente quando a página carrega</td>
+		</tr>	
+		<tr>
+			<td>disabled</td>
+			<td>disabled</td>
+			<td>Especifica que aquele botão deve ser desativado</td>
+		</tr>
+		<tr>
+			<td>from</td>
+			<td><i>from_id</i></td>
+			<td>Especifica qual form o botão pertence</td>
+		</tr>
+		<tr>
+			<td>formaction</td>
+			<td><i>URL</i></td>
+			<td>Especifica onde mandar o form-data quando um form é enviado.Apenas para o type="submit"</td>
+		</tr>
+		<tr>
+			<td>formenctype</td>
+			<td>application/x-www-form-urlencoded<br />
+				multipart/form-data<br />
+				text/plain
+			</td>
+			<td>Especifica como form-data deve ser codificado antes de enviá-lo a um servidor.Apenas para o type="submit"</td>
+		</tr>
+		<tr>
+			<td>formmethod</td>
+			<td>get</br>
+				post
+			</td>
+			<td>Especifica como mandar o form-data(qual método HTTP usar).Apenas para o type="submit"</td>
+		</tr>
+		<tr>
+			<td>formnovalidate</td>
+			<td>formnovalidate</td>
+			<td>Especifica que form-data não deve ser validado no envio.Apenas para o type="submit"</td>
+		</tr>
+		<tr>
+			<td>formtarget</td>
+			<td>_blank<br />
+				_self<br />
+				_parent<br />
+				_top<br />
+				<i>framename</i>
+			</td>
+			<td>Especifica onde exibir a resposta apos o envio do form.Apenas para o type="submit"</td>
+		</tr>
+		<tr>
+			<td>name</td>
+			<td><i>name</i></td>
+			<td>Especifica um nome para o botão</td>
+		</tr>
+		<tr>
+			<td>type</td>
+			<td>button<br />
+			reset<br />
+			submit
+			</td>
+			<td>Especifica o tipo do botão</td>
+		</tr>
+		<tr>
+			<td>value</td>
+			<td><i>text</i></td>
+			<td>Especifica um valor inicial para o botão</td>
+		</tr>
 	  </table>
 	  
 	  <h2>Atributos Globais</h2>
@@ -155,33 +155,24 @@
 		  &nbsp;&nbsp;cursor: pointer;<br />
 		  }<br /><br />
 			
-			.button1 {background-color: #4CAF50;} /* Green */<br />
-			.button2 {background-color: #008CBA;} /* Blue */<br />
-		    &lt;/style><br />
-			&lt;/head><br />	
-			&lt;body><br />
+		  .button1 {background-color: #4CAF50;} /* Green */<br />
+		  .button2 {background-color: #008CBA;} /* Blue */<br />
+		  &lt;/style><br />
+		  &lt;/head><br />	
+		  &lt;body><br /><br />
 			
-			&lt;button class="button button1">Green<br />
-			&lt;button class="button button2">Blue<br />			 
+		  &lt;button class="button button1">Green&lt;/button><br />
+		  &lt;button class="button button2">Blue&lt;/button><br /><br />		 
 			
-			&lt;/body><br />
-			&lt;/html><br />		
+		  &lt;/body><br />
+		  &lt;/html><br />		
         </div>
       </div>
 	  <h2>CSS padrão</h2>
       <div class="example">
         <h3>Exemplo</h3>
         <div class="example-code">
-          .button {<br />
-          &nbsp;&nbsp;background-color: #4CAF50; /* Green */<br />
-          &nbsp;&nbsp;border: none;<br />
-          &nbsp;&nbsp;color: white;<br />
-          &nbsp;&nbsp;padding: 15px 32px;<br />
-          &nbsp;&nbsp;text-align: center;<br />
-		  &nbsp;&nbsp;text-decoration: none;<br />
-		  &nbsp;&nbsp;display: inline-block;<br />
-		  &nbsp;&nbsp;font-size: 16px;<br />
-          }
+          nenhum.
         </div>
       </div>
     </div>
@@ -198,5 +189,4 @@
 	   <span class="footer-disclaimer">Copyright &copy; 2021</span>
     </div>
   </body>
-</html
-  
+</html>
